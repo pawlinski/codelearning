@@ -48,6 +48,23 @@ p {
     margin-top: 1em;
 }
 
+.horror {
+    color: darkred;
+}
+
+.kryminal {
+    color: rgb(0, 235, 252);
+}
+
+.thriller {
+    color: orange;
+}
+
+#best {
+     font-size: large;
+     margin-bottom: 10px;
+}
+
 footer {
     padding: 5%;
     background: #fff;
