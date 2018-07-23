@@ -41,7 +41,21 @@ header ul li {
 }
 
 main {
+    display: flex;
     padding: 2em 5%;
+}
+
+#content {
+    background: #fff;
+    color: #222;
+}
+
+#content, aside {
+    padding: 2rem;
+}
+
+p:first-child {
+    margin-top: 0;
 }
 
 p {
