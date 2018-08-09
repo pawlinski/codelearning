@@ -24,7 +24,7 @@ a {
 }
 
 .row {
-    max-width: 1200px;
+    max-width: 1400px;
     width: 90%;
     margin: 0 auto;
 }
@@ -138,4 +138,49 @@ footer {
     padding: 5%;
     background: #fff;
     color: #000;
+}
+
+/* 
+
+One Page Layout
+
+*/
+
+#one-page main {
+    display: block;
+    padding: 0;
+}
+
+#one-page main section {
+    padding: 5rem 5%;
+}
+
+#one-page main section h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#hello .content {
+    column-count: 3;
+    column-gap: 2rem;
+    max-width: unset;
+}
+
+section .content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.white {
+    background: #fff;
+    color: #222;
+}
+
+.blue {
+    background: #0000ff;
+}
+
+.green {
+    background: rgb(0, 255, 0);
+    color: #b85900;
 }
